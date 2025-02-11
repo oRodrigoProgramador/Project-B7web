@@ -906,7 +906,7 @@ height: 160px;
                     color: #fff;
                     border-bottom: solid 1px #fff;
                 }
-                @media screen and (min-width:482px) and (max-width:770px){
+                @media screen and (max-width:770px){
                    nav{
                     position: absolute;
                     z-index: 99;
@@ -1007,6 +1007,78 @@ height: 160px;
 
 
                 }
+@media screen and (max-width:515px){
+                    .loginarea .sectionbody{
+                        width: auto;
+                       margin-left: 20vw;
+                    }
+                    .subject, .sendtext{
+                        width: 25em;
+                    }
+                    .sectionimages{
+                        flex-direction: column;
+                        border: 0;
+                    }
+                    .section-service{
+                        border: 0;
+                    }
+                    .section-service:last-child{
+                        border: 0;
+                    }
+                
+                #section-fotos{
+                width: auto;
+                }
+                .fotoarea{
+                    width: 300px;
+                    height: 200px;
+                }
+                .sectionworkes {
+                    overflow: hidden;
+                    max-height: 400px;
+                    margin: auto;
+                }
+                .sectionworkes .sliders {
+                    height: auto;
+                    width: 280px;
+                }
+                #contentpremium{
+                    flex-direction: column;
+                }
+                .content-left{
+                    margin-left: 30px;
+                }
+                .getintouchbutton a{
+                    margin-left: 50px;
+                }
+                .section-icons{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .section-icons-title{
+                    margin-bottom: 10px;
+                }
+                .section-icons-icon{
+                    margin-bottom: 10px;
+                }
+                .footerarea{
+                    flex-direction: column;
+                    height: auto;
+                }
+                .rodapedir{
+                    flex-direction: column;
+                    margin-left: 1em;
+                }
+                .formrodape{
+                    height: 200px;
+                }
+                .sectionprices .slide{
+                    width: 400px;
+                }
+
+                }
+
                 @media screen and (max-width:480px) {
                     nav{
                         position: absolute;
